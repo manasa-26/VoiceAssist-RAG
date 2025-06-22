@@ -1,0 +1,14 @@
+What is the process to port my number to another network?
+To port your number, send an SMS with PORT followed by your 10-digit mobile number to 1900. You will receive a UPC code to give to your new operator.
+
+How can I check my data balance?
+You can check your data balance by dialing *121# or using the telecom provider's mobile app.
+
+What are the available prepaid plans?
+We offer prepaid plans starting from ₹199 to ₹599, which include unlimited calls, 1.5GB/day, and free SMS. Check our website for full details.
+
+How to activate international roaming?
+You can activate international roaming by logging into your account in our app or by calling customer care.
+
+How do I contact customer service?
+You can contact our customer service by calling 198 from your registered mobile number or emailing support@telecomprovider.com.
