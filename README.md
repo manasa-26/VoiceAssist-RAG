@@ -1,40 +1,44 @@
- VoiceAssist-RAG
-A multimodal voice-enabled assistant that combines speech recognition, retrieval-augmented generation (RAG), and text-to-speech to deliver intelligent, voice-based answers from domain-specific documents.
+# 🎙️ VoiceAssist-RAG
 
-🚀 Features
-🔍 RAG (Retrieval-Augmented Generation) pipeline to provide grounded responses using telecom_faq.txt
+**VoiceAssist-RAG** is a multimodal voice-enabled assistant that combines **speech recognition**, **retrieval-augmented generation (RAG)**, and **text-to-speech** to deliver intelligent, voice-based answers from domain-specific documents.
 
-🎤 Whisper-based Speech-to-Text: Converts voice input (input.m4a, input.wav) into accurate transcripts
+---
 
-💬 Streamlit UI: Simple and interactive frontend for voice-to-answer interaction
+## 🚀 Features
 
-🗣️ Text-to-Speech: Converts model-generated responses back to audio (output.mp3)
+- 🔍 **RAG Pipeline**: Retrieval-Augmented Generation that provides grounded answers using `telecom_faq.txt`
+- 🎤 **Speech-to-Text (STT)**: Whisper-based transcription of voice input (`input.m4a`, `input.wav`)
+- 🧠 **Vector Search**: Fast and accurate semantic search using **FAISS**
+- 💬 **Streamlit UI**: Clean and interactive frontend for voice-to-answer interactions
+- 🗣️ **Text-to-Speech (TTS)**: Converts model-generated answers to audio output (`output.mp3`)
+- 🧩 **Modular Architecture**: Easy to maintain and extend
 
-🧠 Vector-based semantic search powered by FAISS
+---
 
-📁 Modular architecture with a clear and maintainable structure
-
-📁 Project Structure
+## 🗂️ Project Structure
 
 call-center-rag/
 ├── app/
-│   ├── __pycache__/           # Compiled Python files (should be gitignored)
-│   ├── __init__.py            # Package initializer
-│   ├── demo_runner.py         # Example pipeline runner
-│   ├── embed_store.py         # Vector DB creation & loading
-│   ├── rag_pipeline.py        # Main RAG orchestration logic
-│   ├── text_to_speech.py      # TTS functionality
-│   └── whisper_stt.py         # STT using Whisper
+│ ├── pycache/ # Compiled Python cache (gitignored)
+│ ├── init.py # Package initializer
+│ ├── demo_runner.py # End-to-end RAG pipeline runner
+│ ├── embed_store.py # Vector DB creation & loading logic
+│ ├── rag_pipeline.py # RAG orchestration (retrieval + generation)
+│ ├── text_to_speech.py # TTS module (text to audio)
+│ └── whisper_stt.py # STT module using OpenAI Whisper
 │
 ├── data/
-│   └── telecom_faq.txt        # Domain knowledge source
+│ └── telecom_faq.txt # Domain-specific knowledge base
 │
 ├── vectorstore/
-│   ├── index.faiss            # FAISS index file
-│   └── index.pkl              # Metadata for vector store
+│ ├── index.faiss # FAISS vector index
+│ └── index.pkl # Metadata for vector search
 │
-├── input.m4a / input.wav      # Example voice input files
-├── output.mp3                 # Example generated speech output
-├── streamlit_app.py           # Streamlit frontend entry point
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
+├── input.m4a / input.wav # Example voice input files
+├── output.mp3 # Example generated audio response
+├── streamlit_app.py # Streamlit UI frontend
+├── requirements.txt # Required Python packages
+└── README.md # Project documentation
+
+
+
