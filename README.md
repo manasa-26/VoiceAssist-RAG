@@ -15,30 +15,61 @@
 
 ---
 
+## Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/dcc99358-e68d-46e1-9ff8-3d260aeefe20)
+
+
+## DataFlow Diagram
+
+![Editor _ Mermaid Chart-2025-06-22-103347](https://github.com/user-attachments/assets/e7547f38-674e-4d33-a65c-245f80145601)
+
+
+## 💡 Tech Stack
+
+- **Python**, **Streamlit**
+- **OpenAI Whisper** for STT
+- **FAISS** for vector-based semantic retrieval
+- **LLM (OpenAI / HuggingFace)** for answer generation
+- **gTTS / pyttsx3** or similar for TTS
+
+---
+
+## 🛠️ Installation
+
+
+git clone https://github.com/yourusername/call-center-rag.git
+cd call-center-rag
+pip install -r requirements.txt
+
+
+
 ## 🗂️ Project Structure
 
-call-center-rag/
-├── app/
-│ ├── pycache/ # Compiled Python cache (gitignored)
-│ ├── init.py # Package initializer
-│ ├── demo_runner.py # End-to-end RAG pipeline runner
-│ ├── embed_store.py # Vector DB creation & loading logic
-│ ├── rag_pipeline.py # RAG orchestration (retrieval + generation)
-│ ├── text_to_speech.py # TTS module (text to audio)
-│ └── whisper_stt.py # STT module using OpenAI Whisper
-│
-├── data/
-│ └── telecom_faq.txt # Domain-specific knowledge base
-│
-├── vectorstore/
-│ ├── index.faiss # FAISS vector index
-│ └── index.pkl # Metadata for vector search
-│
-├── input.m4a / input.wav # Example voice input files
-├── output.mp3 # Example generated audio response
-├── streamlit_app.py # Streamlit UI frontend
-├── requirements.txt # Required Python packages
-└── README.md # Project documentation
+![image](https://github.com/user-attachments/assets/a48aa0cd-96a4-40a1-a973-3c7590519e06)
+
+
+## 📸 Screenshot
+
+![image](https://github.com/user-attachments/assets/eb20bc54-d4c7-4219-b4f7-b7da07ade8eb)
+
+
+
+---
+
+## 📽️ Demo Video
+
+https://drive.google.com/file/d/1ePg8iGRVX87NQ8dEGb70B_8Fm4PGkJf6/view?usp=sharing
+
+
+
+
+
+
+
+
+
+
 
 
 
