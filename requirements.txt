@@ -1,0 +1,8 @@
+openai
+langchain
+langchain-community
+whisper
+faiss-cpu
+pyttsx3
+transformers
+torch
