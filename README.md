@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ![image](https://github.com/user-attachments/assets/a48aa0cd-96a4-40a1-a973-3c7590519e06)
 
 
-## 📸 Screenshot
+## 📸 Output Screenshot
 
 ![image](https://github.com/user-attachments/assets/eb20bc54-d4c7-4219-b4f7-b7da07ade8eb)
 
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📽️ Demo Video
+## 📽️ Output Demo Video
 
 https://drive.google.com/file/d/1ePg8iGRVX87NQ8dEGb70B_8Fm4PGkJf6/view?usp=sharing
 
